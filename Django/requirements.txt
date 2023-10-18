@@ -1,0 +1,10 @@
+the first thing is to install django using-> pip install django
+then to check whether the django is installed or not we write as:-python -m django --version
+if this works properly then django is installed successfully!!
+
+next we create a folder as Django and then write the command as django-admin to see the admin commands
+then to create a project we write-> django-admin startproject mysite    -->where mysite is the project name
+then we cd into the mysite folder and then write to run localhost as:- python manage.py runserver
+this will start the development server
+
+NOTE:-to change the template using django we go to settings.py file and write in place of 'templates' written that is:- DIRS=[] and change it to 'DIRS' : ['templates']  and then save the file as usual. 

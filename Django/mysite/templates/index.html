@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template is working very nicely!!!</title>
+</head>
+<body>
+    hello world this is being rendered from the templates folder directory
+    <!-- {{ name }} is the new {{place}} to have this templating structure!! and accessed using the params variable -->
+    <h1>WELCOME TO THE TEXT ANALYZER</h1>
+    <p>enter your text below</p>
+    <form action='/analyze' method="get">
+        <textarea name="text" style="margin-top: 8px; width: 721px; height: 93px; "></textarea>
+        <br>
+        <input type="checkbox" name="removepunc">Remove the Punctuations
+        <br>
+        <input type="checkbox" name="fullcaps">Full capitalize
+        <br>
+        <input type="checkbox" name="lineremover">NEW LINE REMOVER
+        <br>
+        <button type="submit">ANAYLSE this text!!</button>
+    </form>
+</body>
+</html>
